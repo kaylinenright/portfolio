@@ -76,7 +76,7 @@ html {
 }
 
 .box-2 {
-     background-color: white;
+     background-color: #4b4b4b;
     font-size: 1em;
     color: black;
     min-height: 25em;
@@ -120,6 +120,14 @@ html {
 .icon {
     text-decoration: none;
     border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    right: 10%;
+    left: 10%;
+    height: 75%;
+    
 }
 
 
@@ -140,5 +148,12 @@ html {
         font-size: 1.2656rem;
         line-height: 1.7rem;
     }
+    
+    icon {
+        right: 30%;
+        left: 30%;
+    
+}
+
 }
 
