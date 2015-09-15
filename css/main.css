@@ -35,59 +35,43 @@ html {
 
 
 .rule {
-    padding-top: 30px;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
+ 
 }
  .header-title {
-    padding-left: 30px;
-    padding-right: 30 px;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 5rem;
     text-transform: uppercase;
+     font-size: 3rem;
+  line-height: 3.5rem;
+    
 
     }
 
 .text {
-    padding: 30px;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.3rem;
     text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+ font-size: 1.2656rem;
+  line-height: 1.7rem;
+    
 }
 
-.text-1 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.3rem;
-    text-align: center;
-    text-decoration: none;
+.colour {
     color: white;
-    text-align: center;
-}
-
-.text-2 {
-    padding-left: 30px;
-    padding-right: 30px;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.3rem;
-    text-align: center;
     text-decoration: none;
-    color: white;
-    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .box-1 {
     background-color: #c3c3c3;
     font-size: 1em;
     color: white;
-    font-family: 'Libre Baskerville', serif;
-    float: left;
-    width: 475px;
-    padding-top: 23px;
-    padding-bottom: 23px;
-    margin-bottom: 0;
-    margin-left: 13em;
-
+    position: relative;
+    min-height: 25em;
 
 }
 
@@ -95,11 +79,10 @@ html {
      background-color: white;
     font-size: 1em;
     color: black;
-    font-family: 'Libre Baskerville', serif;
-    float: right;
-    width: 475px;
-    margin-bottom: 0;
-    margin-right: 13em;
+    min-height: 25em;
+    position: relative;
+
+  
 
     
 
@@ -109,14 +92,11 @@ html {
     background-color: black;
     font-size: 1em;
     color: white;
-    font-family: 'Libre Baskerville', serif;
-    float: left;
-    width: 475px;
-    padding-top: 40px;
-    padding-bottom: 46px;
-    margin-top: 47px;
-    margin-bottom: 46px;
-    margin-left: 13em;
+    min-height: 25em;
+    position: relative;
+
+ 
+  
 
 
     
@@ -126,30 +106,39 @@ html {
      background-color: #949494;
     font-size: 1em;
     color: white;
-    font-family: 'Libre Baskerville', serif;
-    float: right;
-    width: 500px;
-    width: 475px;
-    padding-top: 40px;
-    padding-bottom: 46px;
-    margin-top: 46px;
-    margin-bottom: 46px;
-    margin-right: 13em;
+    min-height: 25em;
+    position: relative;
+
+
+ 
+
 
 
     
 }
 
 .icon {
-    width: 475px;
     text-decoration: none;
     border: none;
 }
 
-.text-center {
-    text-align: center;
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 50em) {
+    .header-title {
+        font-size: 4rem;
+  line-height: 1.4798;
+    }
+    .text {
+        font-size: 1.2656rem;
+        line-height: 1.7rem;
+    }
 }
-
-
-
 
