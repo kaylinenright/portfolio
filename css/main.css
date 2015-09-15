@@ -1,0 +1,6 @@
+ @viewport { width: device-width; scale: 1; }
+text-size-adjust: 100%;
+
+ .header-title {
+        font-size: 8rem;
+    }
