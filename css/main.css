@@ -53,6 +53,21 @@ body {
 
     }
 
+.text {
+    padding: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.text-1 {
+    padding: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+}
+
 .box-1 {
     background-color: black;
     font-size: 1em;
