@@ -69,7 +69,7 @@ body {
 }
 
 .box-1 {
-    background-color: black;
+    background-color: #c3c3c3;
     font-size: 1em;
     color: white;
     font-family: 'Libre Baskerville', serif;
@@ -93,9 +93,9 @@ body {
 }
 
 .box-3 {
-     background-color: #c3c3c3;
+     background-color: #black;
     font-size: 1em;
-    color: black;
+    color: white;
     font-family: 'Libre Baskerville', serif;
     margin: 5px;
     float: left;
@@ -118,6 +118,8 @@ body {
 
 .icon {
     width: 475px;
+    text-decoration: none;
+    border: none;
 }
 
 
