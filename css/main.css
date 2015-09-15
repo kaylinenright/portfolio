@@ -35,7 +35,6 @@ html {
 }
 
 body {
-    margin: 0;
     overflow: hidden;
 }
 
@@ -54,9 +53,49 @@ body {
 
     }
 
+.box-1 {
+    background-color: black;
+    font-size: 1em;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    margin: 5px;
+    float: left;
+    width: 500px;
 
+}
 
+.box-2 {
+     background-color: white;
+    font-size: 1em;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    margin: 5px;
+    float: right;
+}
 
+.box-3 {
+     background-color: #c3c3c3;
+    font-size: 1em;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    margin: 5px;
+    float: left;
+}
+
+.box-4 {
+     background-color: #949494;
+    font-size: 1em;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    margin: 5px;
+    float: right;
+    width: 500px;
+    
+}
+
+.icon {
+    width: 500px;
+}
 
 
 
