@@ -121,7 +121,6 @@ html {
     text-decoration: none;
     border: none;
     position: absolute;
-    top: 50%;
     transform: translateY(-50%);
     color: white;
     right: 10%;
